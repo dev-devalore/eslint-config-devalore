@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-devalore",
+  "version": "0.0.1",
+  "description": "Devalore's eslint rule set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Aviv Hadar",
+      "email": "aviv.hadar@devalore.com"
+    },
+    {
+      "name": "Matan Kastel",
+      "email": "matan.kastel@devalore.com"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/dev-devalore/eslint-config-devalore",
+    "type": "git"
+  },
+  "author": "Aviv Hadar & Matan Kastel",
+  "license": "MIT",
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.7",
+    "eslint": "^4.19.1 || ^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1"
+  }
+}
