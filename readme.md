@@ -51,7 +51,7 @@ You can alternatively put this object in your `package.json` under the property 
 1. First install everything needed:
 
 ```
-npx install-peerdeps --global eslint-config-wesbos
+npx install-peerdeps --global eslint-config-devalore
 ```
 
 2. Then you need to make a global `.eslintrc` file:
